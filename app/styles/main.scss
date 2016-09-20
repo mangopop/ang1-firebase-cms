@@ -1,0 +1,12 @@
+@import 'vars';
+@import 'typography';
+@import 'textAngular';
+@import 'fontAwesome';
+@import 'bootstrap';
+
+body {
+  font-family: Helvetica, sans-serif;
+  color: $font-color--dark;
+  background-color: $background--light;
+  padding: $half-space;
+}
