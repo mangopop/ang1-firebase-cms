@@ -9,10 +9,15 @@
 <hr/>
 <div example-directive title="WOW!" click-message="You clicked me!">Directive is not loaded.</div>
 
-{{home.quality}}
+<h4>A component</h4>
+<example-component hero="home.hero">Component not loaded</example-component>
 
+<!--{{home.quality}}-->
+
+<h4>Some firebase content</h4>
 <ul>
     <li ng-repeat="item in home.quality">{{item.$id}}</li>
 </ul>
 
+<h4>A CMS area</h4>
 <div text-angular ng-model="home.htmlVariable"></div>
